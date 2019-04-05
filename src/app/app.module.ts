@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SuccessalertComponent } from './successalert/successalert.component';
+import { WarningalertComponent } from './warningalert/warningalert.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SuccessalertComponent,
+    WarningalertComponent
   ],
   imports: [
     BrowserModule,
